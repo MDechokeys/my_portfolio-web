@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+.p{
+    background-color: aquamarine;
+    color: #fff;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+    font-size: 22px;
+}
+nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: green;
+    font-size: 15px;
+    font-family: fantasy;
+}
+main{
+    max-width: 800px;
+    margin: 0 25px;
+
+}
+section{
+    margin-bottom: 20px;
+    align-content: center;
+    
+}
+section h2{
+    margin: 0 0 20px 0;
+    font-size: 18px;
+
+}
+section ul{
+    align-content: center;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
